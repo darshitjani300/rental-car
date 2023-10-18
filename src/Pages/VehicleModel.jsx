@@ -11,7 +11,7 @@ const VehicleModel = () => {
   };
 
   return (
-    <div className="p-container flex flex-col h-full gap-10 py-10">
+    <div className="p-container flex flex-col h-full gap-10 py-10 ">
       <div className="text-center flex flex-col gap-3 md:gap-0 md:w-[50%] my-0 mx-auto">
         <h3 className="font-semibold text-[1.5rem] leading-5 md:text-[1rem] ">
           Vehicle Models
@@ -24,7 +24,7 @@ const VehicleModel = () => {
           adventure or business trip
         </p>
       </div>
-      <div className="flex flex-col gap-5 md:flex md:flex-row md:gap-16">
+      <div className="flex flex-col gap-5 md:flex md:flex-row bg-white shadow-sm md:gap-16">
         <div className="carNames flex flex-col gap-1">
           {car.map((x) => {
             return (

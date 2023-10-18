@@ -1,16 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { bookName, pickUp, drop } from "../Helper/constant";
 import { AiFillCar } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
+import { MyContext } from "../Helper/contextApi";
 
 const Fitems = () => {
-  const [formData, setFormData] = useState({
-    carName: " ",
-    pickuploc: " ",
-    dropoffloc: " ",
-    pickdate: " ",
-    dropdate: " ",
-  });
+  const { setFormData, setPopUpForm } = useContext(MyContext);
   const handleInput = (e) => {
     e.preventDefault;
     const name = e.target.name;
@@ -22,8 +17,9 @@ const Fitems = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    setPopUpForm(true);
   };
+
   return (
     <form
       onSubmit={handleSubmit}

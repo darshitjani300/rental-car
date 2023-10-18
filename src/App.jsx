@@ -1,10 +1,29 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Home from "./Pages/Home";
+import { MyContext } from "./Helper/contextApi";
 
 function App() {
+  const [formData, setFormData] = useState({
+    carName: " ",
+    pickdate: " ",
+    dropdate: " ",
+    pickuploc: " ",
+    dropoffloc: " ",
+  });
+  const [popUpForm, setPopUpForm] = useState(false);
+  useEffect(() => {
+    popUpForm
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "auto");
+  }, [popUpForm]);
   return (
     <>
-      <Home />
+      <MyContext.Provider
+        value={{ formData, setFormData, popUpForm, setPopUpForm }}
+      >
+        <Home />
+      </MyContext.Provider>
     </>
   );
 }

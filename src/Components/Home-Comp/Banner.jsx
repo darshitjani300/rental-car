@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-[#2d2d2d] h-[40vh] md:h-[25vh] my-10">
+    <div className="bg-[#2d2d2d] h-[40vh] md:h-[25vh] my-24">
       <div className="p-container h-full text-white text-center flex flex-col gap-3 justify-center items-center">
         <h1 className="font-semibold md:text-[2rem] text-[2rem] leading-[35px]">
           Save Big with our cheap car rental!
