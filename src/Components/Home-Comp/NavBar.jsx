@@ -3,7 +3,7 @@ import Btn from "../../utils/Btn";
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-between items-center pt-3 md:my-5 px-5 p-container">
+    <nav className="flex justify-between items-center pt-3 md:my-5 px-5 p-container 2xl:w-[70%]">
       <div className="w-20 md:w-24 lg:w-28 xl:w-28">
         <a href="">
           <img src="/images/logo.png" alt="logo" />

@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <div className="hero h-full">
         <NavBar />
-        <div className="p-container flex relative pt-16 md:pt-24 text-center md:text-start">
+        <div className="p-container 2xl:w-[70%] flex relative pt-16 md:pt-24 text-center md:text-start">
           <div className="flex flex-col justify-center gap-4">
             <h3 className="font-bold text-[14px] md:text-[1rem] lg:text-[18px] xl:text-[1.5rem] lg:leading-none leading-3">
               Plan your trip now

@@ -2,8 +2,8 @@ import React from "react";
 
 const Review = () => {
   return (
-    <div className="h-auto p-container">
-      <div className="flex flex-col gap-16 py-10">
+    <div className="p-container 2xl:w-[70%] md:py-20 lg:py-24 xl:py-28 2xl:py-32">
+      <div className="flex flex-col gap-16">
         <div className="flex flex-col justify-center items-center text-center gap-5">
           <h3 className="leading-3 lg:leading-none font-semibold md:text-[1.1rem] lg:text-[1.3rem] xl:text-[1.4rem]">
             Reviewed by people

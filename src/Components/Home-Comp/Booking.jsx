@@ -4,7 +4,7 @@ import Fitems from "../../utils/Fitems";
 
 const Booking = () => {
   return (
-    <div className="p-container booking-section">
+    <div className="p-container 2xl:w-[70%] booking-section">
       <div className="my-52">
         <div className="shadow-md bg-white p-3 py-6 rounded-md">
           <h1 className="font-bold mb-5 px-5 md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.5rem]">Book a Car</h1>

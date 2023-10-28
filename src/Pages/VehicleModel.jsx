@@ -11,7 +11,7 @@ const VehicleModel = () => {
   };
 
   return (
-    <div className="p-container flex flex-col h-full gap-10 py-10 ">
+    <div className="p-container 2xl:w-[70%] flex flex-col h-full gap-10 py-10 ">
       <div className="text-center flex flex-col gap-3 md:gap-0 md:w-[50%] my-0 mx-auto">
         <h3 className="font-semibold text-[1.5rem] leading-5 md:text-[1.2rem] lg:text-[1.3rem] xl:text-[1.5rem] ">
           Vehicle Models
