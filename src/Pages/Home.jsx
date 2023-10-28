@@ -8,6 +8,7 @@ import Review from "../Components/Home-Comp/Review";
 import PopUpForm from "../utils/PopUpForm";
 import { MyContext } from "../Helper/contextApi";
 import Info from "../Components/Home-Comp/Info";
+import Footer from "../Components/Home-Comp/Footer";
 
 const Home = () => {
   const { popUpForm, setPopUpForm } = useContext(MyContext);
@@ -27,6 +28,7 @@ const Home = () => {
       <VehicleModel />
       <Banner />
       <Review />
+      <Footer />
     </>
   );
 };
