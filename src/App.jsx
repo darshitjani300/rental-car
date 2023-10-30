@@ -6,10 +6,10 @@ import { MyContext } from "./Helper/contextApi";
 function App() {
   const [formData, setFormData] = useState({
     carName: " ",
-    pickdate: " ",
-    dropdate: " ",
     pickuploc: " ",
     dropoffloc: " ",
+    pickdate: " ",
+    dropdate: " "
   });
   const [popUpForm, setPopUpForm] = useState(false);
   useEffect(() => {

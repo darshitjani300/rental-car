@@ -1,24 +1,38 @@
 export const bookName = [
-  { name: "Select your car type" },
+  { name: "Select your car type", value: "" },
   {
     name: "Audi A1 S-Line",
+    value: "Audi A1 S-Line",
     img: "/images/audis1.jpg",
     id: crypto.randomUUID(),
   },
-  { name: "VW Golf 6", img: "/images/vw-golf.jpg", id: crypto.randomUUID() },
-  { name: "Toyota Camry", img: "/images/toyota.jpg", id: crypto.randomUUID() },
+  {
+    name: "VW Golf 6",
+    value: "VW Golf 6",
+    img: "/images/vw-golf.jpg",
+    id: crypto.randomUUID(),
+  },
+  {
+    name: "Toyota Camry",
+    value: "Toyota Camry",
+    img: "/images/toyota.jpg",
+    id: crypto.randomUUID(),
+  },
   {
     name: "BMW 320 Modernline",
+    value: "BMW 320 Modernline",
     img: "/images/bmw.jpg",
     id: crypto.randomUUID(),
   },
   {
     name: "Mercedeces-Benz GKL",
+    value: "Mercedeces-Benz GKL",
     img: "/images/mercedes.jpg",
     id: crypto.randomUUID(),
   },
   {
     name: "VW Passat CC",
+    value: "VW Passat CC",
     img: "/images/vwpassat.jpg",
     id: crypto.randomUUID(),
   },

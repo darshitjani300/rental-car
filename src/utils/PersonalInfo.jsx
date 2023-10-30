@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MyContext } from "../Helper/contextApi";
 
 const PersonalInfo = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+  const { setPopUpForm } = useContext(MyContext);
   return (
     <div className="px-5">
       <div className="text-[#ff4d30] mb-3 text-[1.3rem] lg:text-[1.1rem] xl:text-[1rem] md:text-start text-center font-bold">
@@ -115,7 +117,12 @@ const PersonalInfo = () => {
           </label>
         </div>
         <div className="flex justify-end items-center">
-          <button className="px-3 mb-12 font-bold text-[1.2rem] text-white bg-[#ff4d30] border-[1px] border-yellow-300">
+          <button
+            onClick={() => {
+              setPopUpForm(false);
+            }}
+            className="px-3 mb-12 font-bold text-[1.2rem] text-white bg-[#ff4d30] border-[1px] border-yellow-300"
+          >
             Reserve Now
           </button>
         </div>

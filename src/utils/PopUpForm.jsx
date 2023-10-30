@@ -10,7 +10,6 @@ const PopUpForm = () => {
   console.log(formData);
 
   return (
-    // <div className="fixed left-0 z-50 right-0 top-0 bottom-0 bg-[rgba(0,0,0,0.6)">
     <div className="flex fixed left-[50%] translate-x-[-50%] z-50  top-0 flex-col w-full h-full md:w-[50%] mx-auto bg-white my-10 overflow-auto">
       <div>
         <div className="flex items-center justify-between px-5 bg-[#ff4d30] py-1">
