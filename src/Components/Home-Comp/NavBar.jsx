@@ -15,6 +15,9 @@ const NavBar = () => {
             Home
           </li>
           <li className="hover:text-[#ff4d30] cursor-pointer duration-200 ease-in">
+            Book
+          </li>
+          <li className="hover:text-[#ff4d30] cursor-pointer duration-200 ease-in">
             About
           </li>
           <li className="hover:text-[#ff4d30] cursor-pointer duration-200 ease-in">
@@ -22,9 +25,6 @@ const NavBar = () => {
           </li>
           <li className="hover:text-[#ff4d30] cursor-pointer duration-200 ease-in">
             Testimonials
-          </li>
-          <li className="hover:text-[#ff4d30] cursor-pointer duration-200 ease-in">
-            Our Team
           </li>
           <li className="hover:text-[#ff4d30] cursor-pointer duration-200 ease-in">
             Contact

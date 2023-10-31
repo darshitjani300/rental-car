@@ -9,12 +9,12 @@ import PopUpForm from "../utils/PopUpForm";
 import { MyContext } from "../Helper/contextApi";
 import Info from "../Components/Home-Comp/Info";
 import Footer from "../Components/Home-Comp/Footer";
+import GotoTop from "../Components/Home-Comp/GotoTop";
 
 const Home = () => {
   const { popUpForm, setPopUpForm } = useContext(MyContext);
   return (
     <>
-      {/* <NavBar /> */}
       <Hero />
       <Booking />
       {popUpForm && (
@@ -28,6 +28,7 @@ const Home = () => {
       <VehicleModel />
       <Banner />
       <Review />
+      <GotoTop />
       <Footer />
     </>
   );
